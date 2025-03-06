@@ -1,0 +1,10 @@
+produto=(input("qual é o seu primeiro produto: "))
+produto1=(input("qual é o seu segundo produto: "))
+valor=int(input("qual é o valor do seu primeiro protuto: "))
+valor2=int(input("qual é o valor do seu segundo protuto: "))
+def soma (v , v2):
+    print(v+v2)
+    print(v*v2)
+    print(v/v2)
+    print(v-v2)
+soma (valor,valor2)
